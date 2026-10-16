@@ -6,7 +6,7 @@ import {
   sortOpcoes,
   cidades,
 } from '@/services/propertyService';
-import type { PropertyPurpose, PropertyType } from '@/types/property';
+import type { PropertyType } from '@/types/property';
 
 interface CatalogFiltersProps {
   filters: PropertyFilters;
